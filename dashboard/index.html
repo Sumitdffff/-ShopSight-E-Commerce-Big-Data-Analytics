@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSight Analytics | E-Commerce Big Data Dashboard</title>
+  <meta name="description" content="Real-time e-commerce analytics dashboard powered by Big Data analysis — sales trends, regional insights, customer segmentation, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ░░░ SIDEBAR ░░░ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-icon">📊</div>
+      <div class="logo-text">
+        <span class="logo-brand">ShopSight</span>
+        <span class="logo-sub">Analytics</span>
+      </div>
+    </div>
+
+    <!-- DATA MODE TOGGLE -->
+    <div class="mode-toggle-wrap">
+      <div class="mode-toggle" id="modeToggle">
+        <button class="mode-btn active" id="btnSample" onclick="switchMode('sample')">Sample Data</button>
+        <button class="mode-btn"        id="btnMyData" onclick="switchMode('mydata')">My Data</button>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#entry"      class="nav-item" data-section="entry">
+        <span class="nav-icon">✏️</span><span>Enter Data</span>
+      </a>
+      <a href="#overview"   class="nav-item active" data-section="overview">
+        <span class="nav-icon">🏠</span><span>Overview</span>
+      </a>
+      <a href="#sales"      class="nav-item" data-section="sales">
+        <span class="nav-icon">📈</span><span>Sales Trends</span>
+      </a>
+      <a href="#products"   class="nav-item" data-section="products">
+        <span class="nav-icon">📦</span><span>Products</span>
+      </a>
+      <a href="#regional"   class="nav-item" data-section="regional">
+        <span class="nav-icon">🗺️</span><span>Regional</span>
+      </a>
+      <a href="#customers"  class="nav-item" data-section="customers">
+        <span class="nav-icon">👥</span><span>Customers</span>
+      </a>
+      <a href="#payments"   class="nav-item" data-section="payments">
+        <span class="nav-icon">💳</span><span>Payments</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="data-badge">
+        <span class="pulse-dot"></span>
+        <span id="sidebar-record-count">Loading...</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ░░░ MAIN CONTENT ░░░ -->
+  <main class="main-content">
+
+    <!-- ── TOP BAR ── -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1 class="page-title">E-Commerce Analytics Dashboard</h1>
+        <span class="breadcrumb" id="topbar-mode-label">Sample Data Mode · Big Data Analysis · Python</span>
+      </div>
+      <div class="topbar-right">
+        <div class="date-badge" id="date-range-badge">📅 Loading...</div>
+        <div class="refresh-btn" id="refreshBtn" onclick="loadData()">
+          <span class="refresh-icon">⟳</span> Refresh
+        </div>
+      </div>
+    </header>
+
+    <!-- ── LOADING OVERLAY ── -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loader-card">
+        <div class="spinner"></div>
+        <p class="loader-text">Loading Analysis Results...</p>
+        <p class="loader-sub">Make sure you ran <code>python src/analysis.py</code> first</p>
+      </div>
+    </div>
+
+    <!-- ── ERROR OVERLAY ── -->
+    <div class="error-overlay hidden" id="errorOverlay">
+      <div class="error-card">
+        <div class="error-icon">⚠️</div>
+        <h2>Data Not Found</h2>
+        <p>Please run the analysis pipeline first:</p>
+        <div class="code-block">
+          <code>python data/generate_data.py</code><br/>
+          <code>python src/analysis.py</code>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:12px">Or switch to <strong>My Data</strong> mode to enter your own records!</p>
+        <button class="retry-btn" onclick="switchMode('mydata')">Enter My Data →</button>
+        <button class="retry-btn" style="margin-left:8px;background:var(--bg-card);border:1px solid var(--border);color:var(--text-secondary)" onclick="loadData()">Retry</button>
+      </div>
+    </div>
+
+    <!-- ── SECTIONS ── -->
+    <div class="dashboard-body" id="dashboardBody" style="display:none">
+
+      <!-- ════ SECTION: DATA ENTRY ════ -->
+      <section id="section-entry">
+        <div class="section-header">
+          <h2 class="section-title">✏️ Enter Your Data</h2>
+          <span class="section-subtitle" id="entry-record-count">0 records entered</span>
+        </div>
+
+        <!-- Entry Form Card -->
+        <div class="entry-form-card">
+          <div class="entry-form-title">Add New Order Record</div>
+          <form id="orderForm" onsubmit="addRecord(event)">
+            <div class="form-grid">
+
+              <!-- Row 1 -->
+              <div class="form-group">
+                <label for="f-customer">Customer Name</label>
+                <input type="text" id="f-customer" placeholder="e.g. Rahul Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="f-date">Order Date</label>
+                <input type="date" id="f-date" required />
+              </div>
+              <div class="form-group">
+                <label for="f-city">City</label>
+                <select id="f-city" required>
+                  <option value="">Select city...</option>
+                  <option>Mumbai</option><option>Delhi</option><option>Bengaluru</option>
+                  <option>Hyderabad</option><option>Chennai</option><option>Kolkata</option>
+                  <option>Pune</option><option>Ahmedabad</option><option>Jaipur</option>
+                  <option>Surat</option><option>Lucknow</option><option>Indore</option>
+                  <option>Nagpur</option><option>Bhopal</option><option>Patna</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <!-- Row 2 -->
+              <div class="form-group">
+                <label for="f-product">Product Name</label>
+                <input type="text" id="f-product" placeholder="e.g. Samsung Galaxy S24" required />
+              </div>
+              <div class="form-group">
+                <label for="f-category">Category</label>
+                <select id="f-category" required>
+                  <option value="">Select category...</option>
+                  <option>Electronics</option><option>Fashion</option>
+                  <option>Home &amp; Kitchen</option><option>Books</option>
+                  <option>Sports</option><option>Beauty</option>
+                  <option>Grocery</option><option>Toys</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-qty">Quantity</label>
+                <input type="number" id="f-qty" min="1" max="100" value="1" required />
+              </div>
+
+              <!-- Row 3 -->
+              <div class="form-group">
+                <label for="f-price">Unit Price (₹)</label>
+                <input type="number" id="f-price" min="1" placeholder="e.g. 45000" required />
+              </div>
+              <div class="form-group">
+                <label for="f-payment">Payment Method</label>
+                <select id="f-payment" required>
+                  <option value="">Select...</option>
+                  <option>UPI</option><option>Credit Card</option>
+                  <option>Debit Card</option><option>Net Banking</option>
+                  <option>COD</option><option>Wallet</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-status">Order Status</label>
+                <select id="f-status" required>
+                  <option value="Delivered">Delivered</option>
+                  <option value="Shipped">Shipped</option>
+                  <option value="Returned">Returned</option>
+                  <option value="Cancelled">Cancelled</option>
+                </select>
+              </div>
+
+              <!-- Row 4 -->
+              <div class="form-group">
+                <label for="f-gender">Customer Gender</label>
+                <select id="f-gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-age">Customer Age</label>
+                <input type="number" id="f-age" min="18" max="80" value="28" />
+              </div>
+              <div class="form-group" style="display:flex;align-items:flex-end">
+                <button type="submit" class="add-record-btn" id="addRecordBtn">
+                  <span>+ Add Record</span>
+                </button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+
+        <!-- Quick actions -->
+        <div class="entry-actions">
+          <button class="action-btn accent" onclick="analyzeMyData()" id="analyzeBtn" disabled>
+            📊 Analyze My Data
+          </button>
+          <button class="action-btn danger" onclick="clearAllRecords()">
+            🗑️ Clear All
+          </button>
+          <button class="action-btn" onclick="loadSampleEntries()">
+            📋 Load Sample Records
+          </button>
+          <span class="entry-hint" id="entryHint">Add at least 1 record to analyze</span>
+        </div>
+
+        <!-- Records Table -->
+        <div class="chart-card" id="recordsTableCard" style="display:none">
+          <div class="chart-header">
+            <h3>Your Records <span id="recordCountBadge" class="count-badge">0</span></h3>
+            <div class="chart-legend" style="font-size:0.78rem;color:var(--text-muted)">Click a row to delete</div>
+          </div>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Customer</th>
+                  <th>Date</th>
+                  <th>City</th>
+                  <th>Product</th>
+                  <th>Category</th>
+                  <th>Qty</th>
+                  <th>Amount (₹)</th>
+                  <th>Payment</th>
+                  <th>Status</th>
+                  <th>Del</th>
+                </tr>
+              </thead>
+              <tbody id="recordsTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════ SECTION: OVERVIEW ════ -->
+      <section id="section-overview">
+        <div class="section-header">
+          <h2 class="section-title">Overview</h2>
+          <span class="section-subtitle" id="generated-at">—</span>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+          <div class="kpi-card gradient-1">
+            <div class="kpi-icon">₹</div>
+            <div class="kpi-body">
+              <div class="kpi-label">Total Revenue</div>
+              <div class="kpi-value" id="kpi-revenue">—</div>
+              <div class="kpi-trend" id="kpi-mom">— MoM</div>
+            </div>
+          </div>
+          <div class="kpi-card gradient-2">
+            <div class="kpi-icon">🛒</div>
+            <div class="kpi-body">
+              <div class="kpi-label">Total Orders</div>
+              <div class="kpi-value" id="kpi-orders">—</div>
+              <div class="kpi-sub" id="kpi-items">— items sold</div>
+            </div>
+          </div>
+          <div class="kpi-card gradient-3">
+            <div class="kpi-icon">👤</div>
+            <div class="kpi-body">
+              <div class="kpi-label">Unique Customers</div>
+              <div class="kpi-value" id="kpi-customers">—</div>
+              <div class="kpi-sub">Active buyers</div>
+            </div>
+          </div>
+          <div class="kpi-card gradient-4">
+            <div class="kpi-icon">🎯</div>
+            <div class="kpi-body">
+              <div class="kpi-label">Avg Order Value</div>
+              <div class="kpi-value" id="kpi-aov">—</div>
+              <div class="kpi-sub">Per transaction</div>
+            </div>
+          </div>
+          <div class="kpi-card gradient-5">
+            <div class="kpi-icon">🔄</div>
+            <div class="kpi-body">
+              <div class="kpi-label">Return Rate</div>
+              <div class="kpi-value" id="kpi-return">—</div>
+              <div class="kpi-sub" id="kpi-cancel">— cancellation</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>Order Status Breakdown</h3></div>
+            <div class="chart-wrapper small-chart">
+              <canvas id="statusChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><h3>Quarterly Revenue</h3></div>
+            <div class="chart-wrapper small-chart">
+              <canvas id="quarterlyChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════ SECTION: SALES ════ -->
+      <section id="section-sales">
+        <div class="section-header">
+          <h2 class="section-title">Sales Trends</h2>
+          <span class="section-subtitle">Revenue timeline</span>
+        </div>
+
+        <div class="chart-card wide">
+          <div class="chart-header">
+            <h3>Monthly Revenue &amp; Orders</h3>
+            <div class="chart-legend">
+              <span class="legend-dot" style="background:#6366f1"></span>Revenue
+              <span class="legend-dot" style="background:#f59e0b; margin-left:12px"></span>Orders
+            </div>
+          </div>
+          <div class="chart-wrapper tall-chart">
+            <canvas id="monthlyChart"></canvas>
+          </div>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>Category Revenue Share</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="categoryDonutChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><h3>Category Profit vs Revenue</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="categoryBarChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════ SECTION: PRODUCTS ════ -->
+      <section id="section-products">
+        <div class="section-header">
+          <h2 class="section-title">Top Products</h2>
+          <span class="section-subtitle">Best performers by revenue</span>
+        </div>
+
+        <div class="chart-card wide">
+          <div class="chart-header"><h3>Top 10 Products by Revenue</h3></div>
+          <div class="chart-wrapper tall-chart">
+            <canvas id="topProductsChart"></canvas>
+          </div>
+        </div>
+
+        <div class="products-table-card chart-card">
+          <div class="chart-header"><h3>Product Details</h3></div>
+          <div class="table-wrapper">
+            <table class="data-table" id="productsTable">
+              <thead>
+                <tr>
+                  <th>#</th><th>Product</th><th>Category</th>
+                  <th>Revenue</th><th>Units</th>
+                </tr>
+              </thead>
+              <tbody id="productsTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════ SECTION: REGIONAL ════ -->
+      <section id="section-regional">
+        <div class="section-header">
+          <h2 class="section-title">Regional Analysis</h2>
+          <span class="section-subtitle">City &amp; region performance</span>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>Revenue by Region</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="regionChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><h3>Top Cities by Revenue</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="cityChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="city-cards-grid" id="cityCardsGrid"></div>
+      </section>
+
+      <!-- ════ SECTION: CUSTOMERS ════ -->
+      <section id="section-customers">
+        <div class="section-header">
+          <h2 class="section-title">Customer Intelligence</h2>
+          <span class="section-subtitle">Demographics &amp; segmentation</span>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>RFM Customer Segments</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="rfmChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><h3>Age Group Revenue Contribution</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="ageChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>Gender Revenue Split</h3></div>
+            <div class="chart-wrapper small-chart">
+              <canvas id="genderChart"></canvas>
+            </div>
+          </div>
+          <div class="rfm-table-card chart-card">
+            <div class="chart-header"><h3>RFM Segment Summary</h3></div>
+            <div class="table-wrapper">
+              <table class="data-table" id="rfmTable">
+                <thead>
+                  <tr><th>Segment</th><th>Customers</th><th>Avg Spend (₹)</th><th>Share</th></tr>
+                </thead>
+                <tbody id="rfmTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ════ SECTION: PAYMENTS ════ -->
+      <section id="section-payments">
+        <div class="section-header">
+          <h2 class="section-title">Payment Methods</h2>
+          <span class="section-subtitle">Transaction channel insights</span>
+        </div>
+
+        <div class="row-2">
+          <div class="chart-card">
+            <div class="chart-header"><h3>Orders by Payment Method</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="paymentOrdersChart"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-header"><h3>Revenue by Payment Method</h3></div>
+            <div class="chart-wrapper medium-chart">
+              <canvas id="paymentRevenueChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /dashboard-body -->
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
