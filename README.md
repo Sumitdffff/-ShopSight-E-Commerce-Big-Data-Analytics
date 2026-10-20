@@ -187,7 +187,7 @@ This project demonstrates practical applications of Big Data Analytics, includin
 - Cloud deployment and automated data pipelines
 - Enhanced PySpark-based distributed processing
 
-## 📘 Screenshots (For GitHub)
+## 📘 Screenshots 
 
 <table>
 <tr>
