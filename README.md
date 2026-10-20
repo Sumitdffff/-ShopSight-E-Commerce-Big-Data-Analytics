@@ -186,3 +186,15 @@ This project demonstrates practical applications of Big Data Analytics, includin
 - Database integration with MySQL or MongoDB
 - Cloud deployment and automated data pipelines
 - Enhanced PySpark-based distributed processing
+
+## 📘 Screenshots (For GitHub)
+
+<table>
+<tr>
+<td>
+<p align="center">ShopSight Dashboard</p>
+<img  src="https://github.com/user-attachments/assets/ea849299-6c71-4f88-bfa8-c1e37de9940a" width="500">
+</td>
+</tr>
+</table>
+
