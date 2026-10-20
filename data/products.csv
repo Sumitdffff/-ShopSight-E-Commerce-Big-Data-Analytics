@@ -1,0 +1,501 @@
+product_id,product_name,category,price,cost,brand,rating
+PROD0001,Laptop,Electronics,25357.27,16644.53,SwiftBuy,4.4
+PROD0002,Smart TV Max,Electronics,58897.38,33072.85,TrueValue,4.1
+PROD0003,Camera Max,Electronics,17167.51,11262.93,PrimePick,4.1
+PROD0004,Tablet Plus,Electronics,42632.44,27470.46,SwiftBuy,3.7
+PROD0005,Power Bank Pro,Electronics,21942.07,13499.88,PrimePick,4.9
+PROD0006,Tablet Lite,Electronics,11118.53,6046.05,PrimePick,4.2
+PROD0007,Camera SE,Electronics,4949.1,2502.7,PrimePick,4.8
+PROD0008,Tablet SE,Electronics,41670.79,22532.94,NovaLine,3.6
+PROD0009,Bluetooth Speaker,Electronics,53419.39,25308.4,NovaLine,4.6
+PROD0010,Camera Max,Electronics,63174.82,42457.26,ZenBrand,3.7
+PROD0011,Smart TV,Electronics,56247.94,32788.72,NovaLine,3.5
+PROD0012,Smart TV SE,Electronics,31546.21,20961.43,ZenBrand,3.1
+PROD0013,Smartwatch Max,Electronics,64635.23,29937.64,TrueValue,3.8
+PROD0014,Power Bank SE,Electronics,73952.31,41069.2,SwiftBuy,3.9
+PROD0015,Bluetooth Speaker Max,Electronics,64595.08,43060.9,NovaLine,3.9
+PROD0016,Headphones SE,Electronics,28455.08,17810.85,PrimePick,4.3
+PROD0017,Smartwatch Pro,Electronics,46833.36,22841.69,TrueValue,4.8
+PROD0018,Smart TV Pro,Electronics,37689.18,25708.59,PrimePick,4.6
+PROD0019,Camera,Electronics,16250.18,9221.44,TrueValue,4.5
+PROD0020,Smartphone SE,Electronics,66792.0,41138.13,ZenBrand,3.3
+PROD0021,Smart TV Plus,Electronics,2971.02,1789.12,NovaLine,4.9
+PROD0022,Camera,Electronics,75077.03,49879.95,NovaLine,3.6
+PROD0023,Laptop,Electronics,31842.23,14817.09,ZenBrand,3.7
+PROD0024,Headphones,Electronics,54591.6,34774.14,SwiftBuy,3.6
+PROD0025,Router SE,Electronics,74786.55,38876.84,PrimePick,4.9
+PROD0026,Bluetooth Speaker SE,Electronics,46069.98,22663.18,ZenBrand,3.9
+PROD0027,Bluetooth Speaker SE,Electronics,72871.03,44005.02,PrimePick,3.7
+PROD0028,Smart TV SE,Electronics,56042.62,38774.75,SwiftBuy,3.7
+PROD0029,Bluetooth Speaker,Electronics,40812.38,19643.54,NovaLine,4.5
+PROD0030,Laptop Plus,Electronics,56915.63,30036.21,ZenBrand,3.9
+PROD0031,Laptop SE,Electronics,18672.25,12687.83,PrimePick,4.8
+PROD0032,Tablet Lite,Electronics,48176.25,24393.59,ZenBrand,4.0
+PROD0033,Laptop Plus,Electronics,32988.07,22109.9,TrueValue,4.5
+PROD0034,Smart TV Pro,Electronics,22614.11,15812.11,PrimePick,4.3
+PROD0035,Laptop Pro,Electronics,13487.96,7445.34,SwiftBuy,3.2
+PROD0036,Laptop Pro,Electronics,28342.09,19929.74,ZenBrand,4.1
+PROD0037,Router Lite,Electronics,3509.95,2313.88,PrimePick,4.4
+PROD0038,Camera SE,Electronics,28842.32,19155.58,SwiftBuy,5.0
+PROD0039,Tablet Plus,Electronics,62497.58,43309.47,NovaLine,4.0
+PROD0040,Smart TV Lite,Electronics,16899.1,8563.67,PrimePick,3.4
+PROD0041,Headphones,Electronics,79584.98,45629.08,ZenBrand,4.4
+PROD0042,Power Bank Lite,Electronics,48828.94,32121.09,SwiftBuy,3.4
+PROD0043,Camera Pro,Electronics,3764.61,1834.3,TrueValue,4.0
+PROD0044,Tablet Pro,Electronics,20968.04,14497.07,PrimePick,4.9
+PROD0045,Power Bank Plus,Electronics,76534.86,46203.92,NovaLine,4.9
+PROD0046,Camera Lite,Electronics,70029.62,32804.43,PrimePick,4.0
+PROD0047,Laptop Pro,Electronics,28809.66,12997.81,SwiftBuy,4.1
+PROD0048,Laptop SE,Electronics,36527.49,16736.41,SwiftBuy,5.0
+PROD0049,Smartphone Plus,Electronics,50004.39,33860.48,NovaLine,3.9
+PROD0050,Headphones Pro,Electronics,78601.23,48365.0,ZenBrand,4.8
+PROD0051,Smart TV Pro,Electronics,59495.11,35080.84,TrueValue,4.8
+PROD0052,Tablet,Electronics,55381.15,34937.6,PrimePick,4.2
+PROD0053,Smartphone SE,Electronics,12375.52,7387.07,TrueValue,3.0
+PROD0054,Smartphone Plus,Electronics,12484.09,5710.6,NovaLine,3.2
+PROD0055,Tablet Pro,Electronics,42034.51,28508.76,PrimePick,3.7
+PROD0056,Headphones SE,Electronics,79679.3,50908.11,SwiftBuy,3.8
+PROD0057,Smartphone Lite,Electronics,19148.89,9006.76,PrimePick,4.6
+PROD0058,Router SE,Electronics,57865.71,40820.82,TrueValue,3.9
+PROD0059,Bluetooth Speaker SE,Electronics,2849.71,1411.13,TrueValue,4.6
+PROD0060,Power Bank SE,Electronics,43305.1,28775.32,TrueValue,4.8
+PROD0061,Smart TV Pro,Electronics,37456.13,16974.46,PrimePick,3.2
+PROD0062,Headphones Pro,Electronics,4242.81,2497.21,SwiftBuy,3.8
+PROD0063,Camera SE,Electronics,56203.1,32645.03,PrimePick,4.4
+PROD0064,Camera Pro,Electronics,47222.23,28581.77,TrueValue,3.6
+PROD0065,Smartphone Max,Electronics,49679.73,34545.18,ZenBrand,4.8
+PROD0066,Smartwatch Plus,Electronics,49950.95,31610.55,ZenBrand,3.9
+PROD0067,Power Bank Plus,Electronics,76457.08,36560.53,TrueValue,3.6
+PROD0068,Tablet Pro,Electronics,25022.93,17797.92,ZenBrand,4.3
+PROD0069,Smart TV,Electronics,26254.24,12140.38,PrimePick,4.8
+PROD0070,Tablet Pro,Electronics,39216.02,21735.0,ZenBrand,4.9
+PROD0071,Router Lite,Electronics,68735.97,47712.94,TrueValue,3.9
+PROD0072,Smartwatch Plus,Electronics,20884.57,9587.03,SwiftBuy,4.8
+PROD0073,Power Bank,Electronics,70222.53,39553.23,SwiftBuy,4.5
+PROD0074,Camera SE,Electronics,25515.9,13347.31,TrueValue,4.9
+PROD0075,Laptop Pro,Electronics,31925.69,21357.73,NovaLine,3.9
+PROD0076,Tablet Plus,Electronics,23530.9,11171.18,NovaLine,4.2
+PROD0077,Router Plus,Electronics,43269.02,29900.94,ZenBrand,3.9
+PROD0078,Smartphone Pro,Electronics,77377.71,40643.39,ZenBrand,4.8
+PROD0079,Laptop Plus,Electronics,59372.55,32430.53,SwiftBuy,4.0
+PROD0080,Tablet Max,Electronics,78583.04,56294.76,NovaLine,4.1
+PROD0081,Smart TV Plus,Electronics,718.06,330.74,SwiftBuy,3.4
+PROD0082,Camera Pro,Electronics,64243.16,43445.13,PrimePick,3.8
+PROD0083,Router Lite,Electronics,78867.15,54653.55,SwiftBuy,3.3
+PROD0084,Smartphone Lite,Electronics,53624.31,37864.57,ZenBrand,3.9
+PROD0085,Headphones Max,Electronics,62217.0,29976.69,PrimePick,3.8
+PROD0086,Bluetooth Speaker Lite,Electronics,79126.09,38903.2,ZenBrand,3.0
+PROD0087,Power Bank Max,Electronics,36897.87,21644.5,SwiftBuy,3.7
+PROD0088,Router Pro,Electronics,29709.11,14507.04,PrimePick,3.4
+PROD0089,Smartwatch Plus,Electronics,2067.82,1254.53,TrueValue,4.8
+PROD0090,Camera Plus,Electronics,64990.21,32980.68,SwiftBuy,3.1
+PROD0091,Headphones Pro,Electronics,16573.68,11530.49,TrueValue,4.6
+PROD0092,Headphones,Electronics,32750.15,20522.68,ZenBrand,4.2
+PROD0093,Camera Plus,Electronics,58715.97,34921.23,SwiftBuy,4.8
+PROD0094,Router Plus,Electronics,69326.56,46222.05,TrueValue,4.5
+PROD0095,Smartphone Plus,Electronics,3996.14,2336.36,NovaLine,3.2
+PROD0096,Smart TV Lite,Electronics,20177.88,11505.18,TrueValue,4.6
+PROD0097,Router Pro,Electronics,58500.96,36757.82,PrimePick,4.8
+PROD0098,Smart TV Lite,Electronics,31307.78,17788.28,NovaLine,3.5
+PROD0099,Bluetooth Speaker Plus,Electronics,15323.45,7223.79,PrimePick,4.8
+PROD0100,Bluetooth Speaker Max,Electronics,66679.7,43311.43,PrimePick,4.9
+PROD0101,Power Bank Plus,Electronics,34612.06,20467.88,PrimePick,4.5
+PROD0102,Bluetooth Speaker Max,Electronics,5831.95,2892.6,SwiftBuy,3.7
+PROD0103,Headphones,Electronics,5549.83,2660.5,SwiftBuy,4.0
+PROD0104,Bluetooth Speaker Lite,Electronics,33752.06,21647.78,SwiftBuy,3.3
+PROD0105,Tablet Lite,Electronics,16793.87,8549.37,SwiftBuy,4.7
+PROD0106,Power Bank Lite,Electronics,10252.5,6172.62,TrueValue,3.0
+PROD0107,Laptop Lite,Electronics,68962.67,33614.15,TrueValue,3.6
+PROD0108,Smart TV SE,Electronics,21056.12,13912.89,NovaLine,3.9
+PROD0109,Bluetooth Speaker Pro,Electronics,29388.6,19792.04,PrimePick,3.2
+PROD0110,Bluetooth Speaker,Electronics,55810.54,31000.45,PrimePick,3.6
+PROD0111,Jacket SE,Fashion,6735.03,4079.52,TrueValue,3.8
+PROD0112,Sneakers Max,Fashion,3633.34,2028.06,NovaLine,4.5
+PROD0113,Ethnic Dress Max,Fashion,6568.09,4231.73,NovaLine,3.8
+PROD0114,Sneakers Plus,Fashion,7786.78,3602.59,PrimePick,3.3
+PROD0115,Jacket,Fashion,5951.66,3227.86,ZenBrand,4.2
+PROD0116,Sneakers Max,Fashion,7067.62,4948.57,TrueValue,4.0
+PROD0117,Kurta Max,Fashion,4671.17,2779.66,NovaLine,4.1
+PROD0118,Hoodie SE,Fashion,4109.98,2954.82,NovaLine,3.7
+PROD0119,Sneakers Lite,Fashion,1499.57,849.36,SwiftBuy,3.7
+PROD0120,Kurta Plus,Fashion,7145.21,3543.63,SwiftBuy,3.9
+PROD0121,Saree,Fashion,4304.25,2849.34,PrimePick,3.1
+PROD0122,Ethnic Dress Plus,Fashion,1289.6,724.78,NovaLine,3.4
+PROD0123,Kurta Lite,Fashion,1465.37,1002.33,PrimePick,3.5
+PROD0124,Saree Pro,Fashion,4443.09,2227.22,SwiftBuy,4.6
+PROD0125,Saree Lite,Fashion,6602.22,4569.7,TrueValue,4.8
+PROD0126,Jacket Max,Fashion,5414.95,3022.25,PrimePick,4.0
+PROD0127,Formal Shirt Max,Fashion,4279.95,2295.51,ZenBrand,4.4
+PROD0128,Formal Shirt Lite,Fashion,4642.2,2219.77,TrueValue,3.6
+PROD0129,Ethnic Dress SE,Fashion,3768.18,1953.04,NovaLine,4.4
+PROD0130,Jacket Lite,Fashion,2675.57,1881.23,SwiftBuy,4.8
+PROD0131,Saree,Fashion,4113.03,2642.24,TrueValue,4.3
+PROD0132,Formal Shirt Max,Fashion,7757.26,5491.48,SwiftBuy,3.9
+PROD0133,Saree,Fashion,7898.66,5277.32,SwiftBuy,4.4
+PROD0134,Hoodie Max,Fashion,5742.61,3738.6,NovaLine,4.3
+PROD0135,Jeans Plus,Fashion,5295.95,3703.59,PrimePick,4.9
+PROD0136,Ethnic Dress Pro,Fashion,5601.5,3428.13,SwiftBuy,5.0
+PROD0137,Ethnic Dress Lite,Fashion,2257.15,1274.46,SwiftBuy,3.6
+PROD0138,Leggings Plus,Fashion,5688.71,2818.14,ZenBrand,3.8
+PROD0139,Jacket Max,Fashion,1271.63,752.56,PrimePick,4.7
+PROD0140,Leggings SE,Fashion,3769.08,2137.86,SwiftBuy,4.5
+PROD0141,Hoodie Pro,Fashion,905.56,622.11,ZenBrand,4.3
+PROD0142,Leggings Pro,Fashion,4932.4,2296.99,SwiftBuy,3.6
+PROD0143,T-Shirt Pro,Fashion,1665.41,1178.91,NovaLine,3.3
+PROD0144,T-Shirt Pro,Fashion,6251.6,4166.35,TrueValue,4.1
+PROD0145,Sneakers Max,Fashion,5901.88,3265.67,PrimePick,4.6
+PROD0146,Sneakers Plus,Fashion,5571.3,2733.48,TrueValue,3.8
+PROD0147,Ethnic Dress Plus,Fashion,1893.12,1256.72,SwiftBuy,3.4
+PROD0148,Formal Shirt Pro,Fashion,4271.01,2254.01,ZenBrand,3.8
+PROD0149,Formal Shirt Lite,Fashion,5454.05,2588.83,PrimePick,3.0
+PROD0150,Kurta,Fashion,4057.22,2169.03,SwiftBuy,4.5
+PROD0151,Sneakers Pro,Fashion,5445.99,3765.2,TrueValue,3.3
+PROD0152,Sneakers SE,Fashion,2520.7,1646.81,PrimePick,3.1
+PROD0153,Sneakers Max,Fashion,312.96,221.51,SwiftBuy,3.4
+PROD0154,Saree Lite,Fashion,4220.83,2873.72,SwiftBuy,4.2
+PROD0155,Leggings Pro,Fashion,1289.77,674.36,PrimePick,4.9
+PROD0156,Saree Pro,Fashion,387.58,239.26,NovaLine,4.0
+PROD0157,Jacket Lite,Fashion,2037.76,1097.76,ZenBrand,4.9
+PROD0158,T-Shirt Plus,Fashion,3902.78,2433.89,NovaLine,3.9
+PROD0159,Formal Shirt Max,Fashion,3638.52,1701.06,ZenBrand,3.9
+PROD0160,Leggings Lite,Fashion,2832.92,1511.92,TrueValue,3.6
+PROD0161,Jeans Lite,Fashion,7291.27,4080.9,TrueValue,3.7
+PROD0162,Saree SE,Fashion,1893.82,1246.92,ZenBrand,4.2
+PROD0163,T-Shirt Plus,Fashion,5720.86,3859.94,TrueValue,3.7
+PROD0164,Jeans Lite,Fashion,7100.68,4787.54,ZenBrand,4.3
+PROD0165,Hoodie Pro,Fashion,3605.98,2082.77,SwiftBuy,4.9
+PROD0166,Formal Shirt SE,Fashion,1611.3,850.39,NovaLine,3.9
+PROD0167,Saree,Fashion,7099.61,4277.82,ZenBrand,4.2
+PROD0168,Hoodie Pro,Fashion,1924.17,1343.3,SwiftBuy,3.2
+PROD0169,Leggings Max,Fashion,4875.74,2940.98,PrimePick,3.6
+PROD0170,Jeans Max,Fashion,6455.92,3052.06,TrueValue,3.8
+PROD0171,T-Shirt Lite,Fashion,462.05,323.46,NovaLine,4.7
+PROD0172,Formal Shirt SE,Fashion,892.97,402.77,PrimePick,4.7
+PROD0173,Saree Plus,Fashion,2159.25,1097.35,PrimePick,3.6
+PROD0174,Saree Lite,Fashion,6040.24,3636.98,NovaLine,4.2
+PROD0175,Sneakers Lite,Fashion,1419.22,929.93,TrueValue,4.3
+PROD0176,Leggings,Fashion,1371.92,958.09,NovaLine,3.8
+PROD0177,Jacket Lite,Fashion,2689.29,1545.51,TrueValue,4.7
+PROD0178,Jacket Plus,Fashion,7389.58,3962.99,NovaLine,3.2
+PROD0179,Hoodie Lite,Fashion,1669.17,1089.41,ZenBrand,3.1
+PROD0180,Kurta SE,Fashion,538.42,251.01,NovaLine,3.4
+PROD0181,T-Shirt Max,Fashion,4212.94,2874.6,NovaLine,4.9
+PROD0182,Formal Shirt Max,Fashion,3339.4,2000.01,TrueValue,4.0
+PROD0183,Jacket,Fashion,2610.72,1500.85,TrueValue,3.5
+PROD0184,Sneakers Plus,Fashion,5174.23,2636.06,PrimePick,4.6
+PROD0185,Formal Shirt,Fashion,6353.83,4164.26,NovaLine,4.7
+PROD0186,Jacket Max,Fashion,7518.54,4948.93,PrimePick,3.6
+PROD0187,Ethnic Dress,Fashion,1765.43,852.16,PrimePick,4.0
+PROD0188,Formal Shirt Pro,Fashion,6577.48,3873.88,TrueValue,4.6
+PROD0189,Leggings Plus,Fashion,4637.27,2570.83,SwiftBuy,3.7
+PROD0190,Hoodie Plus,Fashion,2752.23,1544.54,TrueValue,4.6
+PROD0191,Saree,Fashion,1907.64,1241.62,ZenBrand,3.4
+PROD0192,Ethnic Dress,Fashion,2321.97,1205.56,ZenBrand,3.2
+PROD0193,Hoodie Lite,Fashion,1635.29,1127.65,PrimePick,3.2
+PROD0194,Sneakers Max,Fashion,2954.39,2061.6,PrimePick,4.7
+PROD0195,Saree Plus,Fashion,5201.16,2663.31,NovaLine,3.8
+PROD0196,Sneakers Pro,Fashion,2420.97,1701.08,PrimePick,3.4
+PROD0197,T-Shirt SE,Fashion,6800.78,3145.25,TrueValue,3.4
+PROD0198,Leggings Lite,Fashion,1595.72,959.16,TrueValue,3.0
+PROD0199,Saree Max,Fashion,5179.32,2538.51,ZenBrand,4.2
+PROD0200,T-Shirt SE,Fashion,5176.1,2375.28,PrimePick,4.1
+PROD0201,T-Shirt SE,Fashion,2230.34,1281.18,NovaLine,4.4
+PROD0202,Hoodie Max,Fashion,1745.47,811.12,SwiftBuy,3.9
+PROD0203,Saree,Fashion,7990.03,4229.89,NovaLine,3.8
+PROD0204,Hoodie Pro,Fashion,592.32,422.79,SwiftBuy,3.3
+PROD0205,Sneakers Plus,Fashion,3561.34,1979.66,SwiftBuy,3.6
+PROD0206,Jacket Lite,Fashion,3565.15,2263.0,TrueValue,4.4
+PROD0207,Hoodie,Fashion,2612.51,1541.04,SwiftBuy,3.3
+PROD0208,Formal Shirt,Fashion,327.92,176.51,SwiftBuy,3.4
+PROD0209,Ethnic Dress Lite,Fashion,4652.74,3089.63,NovaLine,3.8
+PROD0210,T-Shirt Lite,Fashion,6496.11,4287.93,PrimePick,3.9
+PROD0211,T-Shirt Plus,Fashion,2111.37,1489.11,NovaLine,4.8
+PROD0212,Hoodie,Fashion,1492.05,1058.54,PrimePick,3.9
+PROD0213,Saree,Fashion,5503.51,2852.99,PrimePick,4.8
+PROD0214,Ethnic Dress Plus,Fashion,3302.51,1527.12,TrueValue,4.9
+PROD0215,Sneakers SE,Fashion,5885.17,3262.21,SwiftBuy,3.1
+PROD0216,Ethnic Dress SE,Fashion,3287.67,1925.2,SwiftBuy,3.8
+PROD0217,Jacket,Fashion,4269.86,2464.29,SwiftBuy,4.9
+PROD0218,Sneakers Max,Fashion,4911.75,3516.54,TrueValue,4.5
+PROD0219,Hoodie Max,Fashion,850.4,602.43,SwiftBuy,4.4
+PROD0220,Ethnic Dress Pro,Fashion,1990.47,1056.78,TrueValue,4.7
+PROD0221,Jacket Lite,Fashion,5624.15,2888.23,TrueValue,4.1
+PROD0222,Jacket Pro,Fashion,1146.18,695.06,ZenBrand,3.5
+PROD0223,Ethnic Dress SE,Fashion,731.31,355.79,ZenBrand,4.0
+PROD0224,Leggings SE,Fashion,7761.66,4011.84,SwiftBuy,4.1
+PROD0225,Kurta Pro,Fashion,6251.99,4293.23,ZenBrand,4.9
+PROD0226,Kurta Pro,Fashion,3207.33,1526.26,PrimePick,3.4
+PROD0227,Kurta,Fashion,1395.66,846.58,PrimePick,3.3
+PROD0228,Jeans Lite,Fashion,2090.45,1406.9,ZenBrand,4.4
+PROD0229,Sneakers Pro,Fashion,4830.45,2405.11,ZenBrand,4.0
+PROD0230,T-Shirt Lite,Fashion,1153.11,704.09,NovaLine,4.0
+PROD0231,Kurta Pro,Fashion,1626.87,884.81,TrueValue,4.8
+PROD0232,Saree Pro,Fashion,5372.08,3079.57,PrimePick,3.8
+PROD0233,Hoodie,Fashion,5576.21,2521.04,TrueValue,4.4
+PROD0234,Hoodie,Fashion,7981.94,5205.37,NovaLine,3.8
+PROD0235,Formal Shirt Lite,Fashion,6602.46,3281.58,PrimePick,4.7
+PROD0236,LED Lamp Lite,Home & Kitchen,3969.1,2020.49,SwiftBuy,4.8
+PROD0237,Cookware Set Pro,Home & Kitchen,5684.86,2669.82,PrimePick,4.4
+PROD0238,Wall Clock Plus,Home & Kitchen,9339.28,4489.05,TrueValue,4.8
+PROD0239,LED Lamp Plus,Home & Kitchen,310.3,180.07,SwiftBuy,4.9
+PROD0240,Pressure Cooker Max,Home & Kitchen,940.45,581.46,SwiftBuy,3.0
+PROD0241,LED Lamp,Home & Kitchen,3151.27,1951.63,SwiftBuy,4.3
+PROD0242,Bedsheet Set Lite,Home & Kitchen,2640.81,1459.63,TrueValue,3.1
+PROD0243,Air Purifier,Home & Kitchen,3338.22,1741.32,TrueValue,4.1
+PROD0244,Bedsheet Set,Home & Kitchen,11080.01,6033.97,NovaLine,3.8
+PROD0245,Curtains Lite,Home & Kitchen,9884.78,4562.73,ZenBrand,3.2
+PROD0246,Mixer Grinder Pro,Home & Kitchen,6634.3,3995.71,PrimePick,3.3
+PROD0247,Pillow Lite,Home & Kitchen,13374.48,7802.79,TrueValue,3.2
+PROD0248,Mixer Grinder Plus,Home & Kitchen,6772.12,3250.08,NovaLine,5.0
+PROD0249,Cookware Set,Home & Kitchen,8124.71,5272.54,SwiftBuy,3.0
+PROD0250,Curtains Pro,Home & Kitchen,5096.43,2991.32,PrimePick,4.5
+PROD0251,Storage Box Plus,Home & Kitchen,3622.85,1645.68,ZenBrand,3.1
+PROD0252,Air Purifier Max,Home & Kitchen,1392.49,884.45,PrimePick,3.4
+PROD0253,Pressure Cooker Max,Home & Kitchen,14189.54,6430.98,ZenBrand,3.2
+PROD0254,LED Lamp Max,Home & Kitchen,11722.7,5467.18,PrimePick,3.1
+PROD0255,Curtains Max,Home & Kitchen,189.04,98.31,PrimePick,3.3
+PROD0256,Wall Clock Plus,Home & Kitchen,13946.94,7957.8,ZenBrand,4.6
+PROD0257,LED Lamp Max,Home & Kitchen,6627.03,4073.58,TrueValue,4.5
+PROD0258,LED Lamp,Home & Kitchen,10932.24,7859.96,NovaLine,3.8
+PROD0259,Wall Clock Pro,Home & Kitchen,5195.18,3053.12,PrimePick,3.7
+PROD0260,Pressure Cooker Pro,Home & Kitchen,7538.63,3725.01,ZenBrand,3.9
+PROD0261,Air Purifier Plus,Home & Kitchen,3749.26,2421.17,SwiftBuy,3.4
+PROD0262,Pressure Cooker Pro,Home & Kitchen,12724.25,7605.65,ZenBrand,3.3
+PROD0263,Curtains Pro,Home & Kitchen,1486.36,732.13,ZenBrand,3.5
+PROD0264,Storage Box Lite,Home & Kitchen,12770.0,7588.24,TrueValue,4.8
+PROD0265,Air Purifier Pro,Home & Kitchen,5553.57,2767.17,TrueValue,3.8
+PROD0266,Mixer Grinder Pro,Home & Kitchen,10164.96,6325.35,PrimePick,4.7
+PROD0267,Cookware Set Pro,Home & Kitchen,10827.38,6219.68,NovaLine,3.5
+PROD0268,Curtains Plus,Home & Kitchen,8566.09,5964.89,SwiftBuy,3.8
+PROD0269,Pillow,Home & Kitchen,9911.85,4897.97,PrimePick,4.7
+PROD0270,Cookware Set,Home & Kitchen,9954.63,4547.42,PrimePick,4.1
+PROD0271,Mixer Grinder Lite,Home & Kitchen,8204.77,5149.02,TrueValue,4.2
+PROD0272,Mixer Grinder Pro,Home & Kitchen,14952.4,10559.15,PrimePick,4.6
+PROD0273,Curtains,Home & Kitchen,6192.08,4116.78,NovaLine,3.9
+PROD0274,Storage Box Pro,Home & Kitchen,8829.4,4779.78,PrimePick,4.1
+PROD0275,Pressure Cooker Pro,Home & Kitchen,7336.5,4427.03,TrueValue,3.9
+PROD0276,Wall Clock Max,Home & Kitchen,1265.26,876.65,NovaLine,4.5
+PROD0277,Pressure Cooker Lite,Home & Kitchen,13282.0,8363.41,SwiftBuy,3.0
+PROD0278,Curtains Lite,Home & Kitchen,4684.21,2746.34,ZenBrand,3.9
+PROD0279,Bedsheet Set Max,Home & Kitchen,12951.26,8375.61,TrueValue,4.2
+PROD0280,Curtains,Home & Kitchen,8882.63,5651.35,SwiftBuy,3.5
+PROD0281,Air Purifier SE,Home & Kitchen,7193.37,3694.84,SwiftBuy,4.0
+PROD0282,Cookware Set Lite,Home & Kitchen,9348.08,6418.67,ZenBrand,3.4
+PROD0283,Curtains,Home & Kitchen,7168.08,4550.33,TrueValue,3.3
+PROD0284,Wall Clock Pro,Home & Kitchen,13430.06,8264.19,SwiftBuy,4.0
+PROD0285,Storage Box Lite,Home & Kitchen,10750.93,7159.86,PrimePick,4.5
+PROD0286,Wall Clock SE,Home & Kitchen,4397.07,2139.33,NovaLine,3.5
+PROD0287,LED Lamp Lite,Home & Kitchen,4888.56,3201.4,PrimePick,3.3
+PROD0288,Pillow SE,Home & Kitchen,1300.0,842.3,NovaLine,4.3
+PROD0289,Storage Box Lite,Home & Kitchen,11867.16,5838.53,ZenBrand,3.7
+PROD0290,Pillow Lite,Home & Kitchen,12874.78,8904.68,NovaLine,4.3
+PROD0291,Pressure Cooker Pro,Home & Kitchen,6253.52,3142.37,PrimePick,4.6
+PROD0292,Mixer Grinder Max,Home & Kitchen,10413.67,5060.65,PrimePick,3.8
+PROD0293,Pillow Max,Home & Kitchen,13251.25,9487.05,ZenBrand,4.9
+PROD0294,Storage Box Lite,Home & Kitchen,6107.1,4066.85,SwiftBuy,4.1
+PROD0295,Bedsheet Set Lite,Home & Kitchen,3045.13,1748.0,PrimePick,3.6
+PROD0296,Curtains Max,Home & Kitchen,12018.31,5788.53,PrimePick,3.4
+PROD0297,Wall Clock Lite,Home & Kitchen,1398.18,668.91,PrimePick,3.5
+PROD0298,Air Purifier Max,Home & Kitchen,4501.46,2715.55,NovaLine,4.3
+PROD0299,Bedsheet Set Pro,Home & Kitchen,9531.88,5657.16,PrimePick,3.4
+PROD0300,Wall Clock Plus,Home & Kitchen,3678.91,1764.44,PrimePick,3.1
+PROD0301,Air Purifier Pro,Home & Kitchen,1976.79,1375.17,PrimePick,4.5
+PROD0302,Air Purifier Lite,Home & Kitchen,13545.82,8511.78,PrimePick,3.4
+PROD0303,Air Purifier SE,Home & Kitchen,14861.85,7384.15,NovaLine,4.5
+PROD0304,Curtains Lite,Home & Kitchen,9829.44,6073.4,SwiftBuy,4.8
+PROD0305,Curtains,Home & Kitchen,8613.3,4151.0,ZenBrand,4.7
+PROD0306,Pressure Cooker Plus,Home & Kitchen,4843.85,2335.67,PrimePick,5.0
+PROD0307,Mixer Grinder SE,Home & Kitchen,3420.58,1795.97,SwiftBuy,3.4
+PROD0308,Pillow Pro,Home & Kitchen,5193.12,2989.65,SwiftBuy,3.3
+PROD0309,Curtains,Home & Kitchen,3069.06,1444.24,SwiftBuy,3.2
+PROD0310,Wall Clock Plus,Home & Kitchen,14698.43,10202.24,ZenBrand,4.5
+PROD0311,History Book Lite,Books,686.22,446.79,TrueValue,4.8
+PROD0312,History Book Pro,Books,908.97,589.76,SwiftBuy,3.8
+PROD0313,Fiction Novel Plus,Books,1637.1,999.67,NovaLine,3.5
+PROD0314,Science Encyclopedia Max,Books,1253.56,862.27,ZenBrand,4.6
+PROD0315,Self-Help Book SE,Books,1834.44,1121.55,TrueValue,3.8
+PROD0316,Fiction Novel Plus,Books,247.3,162.88,NovaLine,3.2
+PROD0317,Fiction Novel Pro,Books,304.21,150.42,TrueValue,3.3
+PROD0318,JEE Prep Book Pro,Books,889.1,400.49,PrimePick,4.5
+PROD0319,UPSC Guide Plus,Books,413.61,289.8,SwiftBuy,4.1
+PROD0320,JEE Prep Book,Books,353.96,247.73,TrueValue,4.1
+PROD0321,Self-Help Book Max,Books,1520.31,937.45,PrimePick,3.3
+PROD0322,Fiction Novel Plus,Books,1275.11,836.44,SwiftBuy,4.2
+PROD0323,Science Encyclopedia SE,Books,1762.68,871.22,TrueValue,4.3
+PROD0324,Cook Book Pro,Books,628.7,328.69,PrimePick,3.8
+PROD0325,Science Encyclopedia Lite,Books,1700.16,842.92,SwiftBuy,4.8
+PROD0326,Self-Help Book,Books,1961.54,1189.24,ZenBrand,4.0
+PROD0327,Children Story,Books,1238.05,846.98,PrimePick,3.9
+PROD0328,Children Story,Books,994.02,564.54,NovaLine,4.4
+PROD0329,UPSC Guide SE,Books,536.28,290.56,NovaLine,4.0
+PROD0330,Science Encyclopedia,Books,1659.51,1034.13,ZenBrand,3.8
+PROD0331,History Book Pro,Books,991.19,638.69,TrueValue,3.1
+PROD0332,JEE Prep Book SE,Books,617.93,390.29,TrueValue,3.6
+PROD0333,Cook Book Lite,Books,1182.62,843.58,PrimePick,4.9
+PROD0334,History Book,Books,148.29,72.07,PrimePick,4.5
+PROD0335,History Book SE,Books,1302.18,720.66,TrueValue,4.7
+PROD0336,History Book Lite,Books,778.73,492.67,NovaLine,3.0
+PROD0337,Science Encyclopedia Max,Books,1705.99,1134.9,TrueValue,3.1
+PROD0338,Cook Book Lite,Books,839.9,528.37,NovaLine,3.6
+PROD0339,Cook Book Pro,Books,1100.15,755.41,ZenBrand,4.7
+PROD0340,Children Story SE,Books,657.45,384.91,SwiftBuy,4.3
+PROD0341,Children Story Plus,Books,809.65,437.87,PrimePick,4.3
+PROD0342,Science Encyclopedia Plus,Books,1551.19,1093.91,PrimePick,3.1
+PROD0343,Science Encyclopedia,Books,1799.57,1257.38,PrimePick,4.5
+PROD0344,Children Story Plus,Books,1802.5,1047.57,PrimePick,4.1
+PROD0345,Children Story,Books,1848.92,909.25,TrueValue,3.3
+PROD0346,Children Story,Books,1146.54,605.85,NovaLine,4.6
+PROD0347,Fiction Novel Pro,Books,1353.38,903.34,ZenBrand,4.7
+PROD0348,Science Encyclopedia SE,Books,1527.88,1062.03,SwiftBuy,3.5
+PROD0349,History Book Max,Books,1767.0,894.87,SwiftBuy,3.8
+PROD0350,Cook Book,Books,1759.51,1243.19,SwiftBuy,4.2
+PROD0351,Dumbbells Pro,Sports,16452.67,10356.77,PrimePick,3.5
+PROD0352,Resistance Bands Pro,Sports,1459.34,760.03,TrueValue,3.7
+PROD0353,Yoga Mat Lite,Sports,5872.51,3300.41,PrimePick,3.9
+PROD0354,Cycling Gloves Lite,Sports,16791.98,10019.89,TrueValue,4.4
+PROD0355,Football,Sports,18849.29,12913.68,NovaLine,4.4
+PROD0356,Cycling Gloves Lite,Sports,12416.03,6985.91,PrimePick,3.3
+PROD0357,Running Shoes,Sports,3601.31,1884.21,SwiftBuy,3.7
+PROD0358,Cricket Bat Plus,Sports,15874.89,8020.2,NovaLine,3.2
+PROD0359,Resistance Bands SE,Sports,10071.72,5752.79,SwiftBuy,3.4
+PROD0360,Running Shoes Max,Sports,19933.02,13776.46,ZenBrand,4.3
+PROD0361,Cricket Bat Max,Sports,2317.47,1640.08,TrueValue,4.0
+PROD0362,Running Shoes Pro,Sports,19849.95,10016.88,ZenBrand,3.1
+PROD0363,Cycling Gloves Max,Sports,5843.02,3464.14,PrimePick,3.5
+PROD0364,Running Shoes Pro,Sports,13399.91,8479.27,SwiftBuy,4.8
+PROD0365,Yoga Mat Lite,Sports,9583.15,5744.12,TrueValue,4.5
+PROD0366,Yoga Mat Pro,Sports,11732.93,8225.32,NovaLine,4.4
+PROD0367,Running Shoes Plus,Sports,18808.99,12441.08,NovaLine,3.5
+PROD0368,Running Shoes Max,Sports,15375.32,8812.49,PrimePick,3.7
+PROD0369,Badminton Racket Max,Sports,12464.36,5804.73,PrimePick,4.8
+PROD0370,Yoga Mat SE,Sports,6817.23,4652.31,PrimePick,3.4
+PROD0371,Yoga Mat Pro,Sports,18064.33,8810.37,SwiftBuy,3.4
+PROD0372,Cycling Gloves Max,Sports,4346.84,2921.5,SwiftBuy,4.2
+PROD0373,Dumbbells Lite,Sports,13915.61,6970.61,TrueValue,3.4
+PROD0374,Yoga Mat Max,Sports,19483.95,11503.44,PrimePick,4.5
+PROD0375,Cricket Bat Plus,Sports,749.91,413.69,TrueValue,3.9
+PROD0376,Running Shoes Pro,Sports,7894.49,4152.42,TrueValue,3.6
+PROD0377,Yoga Mat,Sports,16550.51,8813.84,SwiftBuy,4.0
+PROD0378,Dumbbells Pro,Sports,18671.14,12961.63,NovaLine,4.9
+PROD0379,Football,Sports,19778.29,12429.54,NovaLine,4.4
+PROD0380,Resistance Bands Lite,Sports,1374.28,834.8,TrueValue,3.9
+PROD0381,Cycling Gloves Plus,Sports,18389.07,9987.41,TrueValue,3.3
+PROD0382,Cycling Gloves SE,Sports,12514.08,7165.15,TrueValue,3.3
+PROD0383,Dumbbells SE,Sports,5510.01,3946.92,SwiftBuy,4.2
+PROD0384,Yoga Mat SE,Sports,13496.97,9088.28,SwiftBuy,4.9
+PROD0385,Badminton Racket SE,Sports,7357.26,3474.75,PrimePick,4.2
+PROD0386,Sunscreen SPF 50,Beauty,3563.66,2165.54,PrimePick,4.7
+PROD0387,Face Wash,Beauty,4998.89,3597.09,NovaLine,3.5
+PROD0388,Shampoo Lite,Beauty,1267.46,770.27,TrueValue,3.5
+PROD0389,Shampoo Lite,Beauty,1585.48,780.34,SwiftBuy,3.8
+PROD0390,Shampoo Max,Beauty,1352.66,933.95,TrueValue,4.0
+PROD0391,Moisturizer Plus,Beauty,3035.67,1650.18,TrueValue,3.2
+PROD0392,Hair Oil Plus,Beauty,2311.99,1067.54,SwiftBuy,4.4
+PROD0393,Foundation Plus,Beauty,2501.45,1638.12,PrimePick,4.8
+PROD0394,Lipstick SE,Beauty,3518.63,1637.82,PrimePick,4.3
+PROD0395,Moisturizer Plus,Beauty,4511.51,2069.71,NovaLine,3.5
+PROD0396,Face Wash Pro,Beauty,3397.31,1625.88,TrueValue,3.4
+PROD0397,Hair Oil Pro,Beauty,3757.98,2287.1,ZenBrand,4.6
+PROD0398,Sunscreen SPF 50 Plus,Beauty,4437.69,2416.38,PrimePick,4.7
+PROD0399,Moisturizer Max,Beauty,1514.05,754.57,SwiftBuy,4.4
+PROD0400,Foundation Lite,Beauty,3825.38,2500.65,NovaLine,4.4
+PROD0401,Shampoo Pro,Beauty,4801.41,3042.24,NovaLine,4.8
+PROD0402,Face Wash SE,Beauty,4684.13,2196.69,PrimePick,4.5
+PROD0403,Sunscreen SPF 50,Beauty,1693.0,1143.93,NovaLine,3.2
+PROD0404,Face Wash Plus,Beauty,2842.42,1725.95,PrimePick,5.0
+PROD0405,Foundation Plus,Beauty,4677.69,2406.79,PrimePick,3.8
+PROD0406,Face Serum Max,Beauty,2886.5,1587.67,TrueValue,4.4
+PROD0407,Sunscreen SPF 50 Pro,Beauty,1173.51,714.07,NovaLine,5.0
+PROD0408,Lipstick Lite,Beauty,1377.92,758.26,TrueValue,4.0
+PROD0409,Shampoo Plus,Beauty,3074.26,1439.34,ZenBrand,3.2
+PROD0410,Lipstick,Beauty,3574.21,2480.34,NovaLine,4.7
+PROD0411,Hair Oil SE,Beauty,4213.58,2692.16,NovaLine,4.2
+PROD0412,Hair Oil SE,Beauty,2460.5,1607.91,SwiftBuy,4.3
+PROD0413,Face Wash,Beauty,1071.16,647.35,ZenBrand,3.1
+PROD0414,Lipstick Plus,Beauty,3172.17,1650.05,ZenBrand,3.8
+PROD0415,Lipstick Lite,Beauty,3833.4,2567.23,TrueValue,3.8
+PROD0416,Lipstick Lite,Beauty,121.19,58.48,NovaLine,3.6
+PROD0417,Face Serum Pro,Beauty,2490.5,1257.77,TrueValue,4.5
+PROD0418,Sunscreen SPF 50 SE,Beauty,4144.93,2830.2,ZenBrand,3.9
+PROD0419,Face Serum SE,Beauty,1877.82,1020.39,NovaLine,3.0
+PROD0420,Lipstick Lite,Beauty,1043.98,586.27,PrimePick,3.8
+PROD0421,Foundation,Beauty,3710.85,2161.16,PrimePick,3.8
+PROD0422,Hair Oil Lite,Beauty,3855.12,2276.93,TrueValue,3.0
+PROD0423,Hair Oil Pro,Beauty,4206.67,2699.35,ZenBrand,4.7
+PROD0424,Lipstick Plus,Beauty,1095.87,557.64,ZenBrand,3.6
+PROD0425,Lipstick,Beauty,2278.0,1557.05,NovaLine,3.4
+PROD0426,Shampoo Lite,Beauty,3449.2,1765.65,PrimePick,4.7
+PROD0427,Sunscreen SPF 50 Pro,Beauty,2828.27,1800.01,ZenBrand,3.0
+PROD0428,Foundation SE,Beauty,116.2,78.74,SwiftBuy,3.7
+PROD0429,Face Wash Lite,Beauty,3340.45,2010.25,ZenBrand,4.8
+PROD0430,Sunscreen SPF 50,Beauty,604.58,379.12,ZenBrand,4.0
+PROD0431,Dal 1kg Plus,Grocery,1479.06,906.34,ZenBrand,4.3
+PROD0432,Protein Powder Plus,Grocery,1210.07,672.7,SwiftBuy,3.6
+PROD0433,Cooking Oil 5L SE,Grocery,267.23,138.02,NovaLine,4.9
+PROD0434,Green Tea SE,Grocery,1570.49,849.32,ZenBrand,3.4
+PROD0435,Honey SE,Grocery,195.28,97.0,SwiftBuy,3.6
+PROD0436,Organic Rice 5kg Lite,Grocery,1497.18,762.14,ZenBrand,4.3
+PROD0437,Dal 1kg,Grocery,642.56,412.42,PrimePick,3.3
+PROD0438,Honey,Grocery,1023.57,585.42,TrueValue,4.2
+PROD0439,Green Tea Pro,Grocery,2449.21,1649.91,ZenBrand,3.1
+PROD0440,Protein Powder SE,Grocery,1391.59,649.36,TrueValue,3.3
+PROD0441,Protein Powder Max,Grocery,497.7,338.08,SwiftBuy,3.6
+PROD0442,Dal 1kg SE,Grocery,1098.84,731.63,SwiftBuy,4.9
+PROD0443,Masala Kit SE,Grocery,1533.22,760.01,TrueValue,4.8
+PROD0444,Dal 1kg Max,Grocery,406.37,247.28,NovaLine,4.0
+PROD0445,Dry Fruits Assorted SE,Grocery,313.3,174.82,TrueValue,3.8
+PROD0446,Green Tea Plus,Grocery,1271.1,690.87,SwiftBuy,4.8
+PROD0447,Cooking Oil 5L Lite,Grocery,2124.26,1417.6,NovaLine,3.2
+PROD0448,Green Tea,Grocery,843.24,590.96,TrueValue,4.8
+PROD0449,Cooking Oil 5L SE,Grocery,949.52,646.7,SwiftBuy,4.6
+PROD0450,Masala Kit,Grocery,2564.75,1718.09,PrimePick,3.9
+PROD0451,Protein Powder Plus,Grocery,276.63,190.32,SwiftBuy,4.1
+PROD0452,Protein Powder Max,Grocery,1894.74,861.05,TrueValue,4.4
+PROD0453,Dal 1kg,Grocery,1134.14,616.52,NovaLine,4.5
+PROD0454,Masala Kit Lite,Grocery,2840.96,1711.3,PrimePick,4.9
+PROD0455,Masala Kit Plus,Grocery,2430.85,1700.12,SwiftBuy,4.6
+PROD0456,Dal 1kg Lite,Grocery,1929.5,884.26,NovaLine,3.2
+PROD0457,Green Tea,Grocery,727.73,334.23,SwiftBuy,4.0
+PROD0458,Organic Rice 5kg Plus,Grocery,450.65,284.19,TrueValue,4.8
+PROD0459,Masala Kit,Grocery,2150.27,1287.27,SwiftBuy,3.2
+PROD0460,Dal 1kg Lite,Grocery,83.65,58.26,SwiftBuy,3.9
+PROD0461,Honey Plus,Grocery,2936.58,1672.61,TrueValue,3.4
+PROD0462,Honey Lite,Grocery,920.95,476.65,ZenBrand,5.0
+PROD0463,Protein Powder Max,Grocery,1290.56,581.09,TrueValue,4.2
+PROD0464,Organic Rice 5kg Max,Grocery,1246.61,849.47,NovaLine,4.6
+PROD0465,Masala Kit SE,Grocery,1253.71,726.08,PrimePick,3.5
+PROD0466,Honey Lite,Grocery,1823.06,857.73,PrimePick,4.5
+PROD0467,Organic Rice 5kg SE,Grocery,2841.51,2041.72,PrimePick,5.0
+PROD0468,Honey,Grocery,2902.42,1869.29,TrueValue,4.5
+PROD0469,Protein Powder SE,Grocery,417.31,283.54,PrimePick,3.4
+PROD0470,Dal 1kg Lite,Grocery,2904.46,1935.0,NovaLine,4.7
+PROD0471,Protein Powder Lite,Grocery,982.9,703.56,SwiftBuy,4.8
+PROD0472,Organic Rice 5kg SE,Grocery,1016.95,471.84,TrueValue,4.7
+PROD0473,Dry Fruits Assorted Plus,Grocery,410.34,219.61,NovaLine,4.5
+PROD0474,Organic Rice 5kg Pro,Grocery,125.45,87.49,TrueValue,4.9
+PROD0475,Organic Rice 5kg Plus,Grocery,668.42,392.19,PrimePick,3.5
+PROD0476,Honey,Grocery,733.79,391.43,NovaLine,3.6
+PROD0477,Protein Powder SE,Grocery,734.33,444.2,TrueValue,4.1
+PROD0478,Dry Fruits Assorted Pro,Grocery,671.47,406.29,PrimePick,4.9
+PROD0479,Protein Powder Plus,Grocery,249.67,127.12,TrueValue,3.4
+PROD0480,Organic Rice 5kg Max,Grocery,916.69,643.31,SwiftBuy,4.3
+PROD0481,Soft Toy,Toys,1174.59,728.45,TrueValue,3.2
+PROD0482,Action Figure,Toys,394.82,258.23,SwiftBuy,3.6
+PROD0483,Soft Toy Pro,Toys,3530.27,1746.9,SwiftBuy,3.6
+PROD0484,Building Blocks Lite,Toys,1984.05,1133.07,SwiftBuy,4.5
+PROD0485,Action Figure Pro,Toys,4412.88,2257.77,ZenBrand,3.5
+PROD0486,Action Figure,Toys,2768.8,1559.0,NovaLine,3.8
+PROD0487,Puzzle 1000pc Pro,Toys,5963.41,3307.04,ZenBrand,4.7
+PROD0488,Action Figure SE,Toys,5636.82,3900.64,TrueValue,4.8
+PROD0489,Building Blocks Max,Toys,247.67,125.66,SwiftBuy,4.6
+PROD0490,Puzzle 1000pc SE,Toys,1424.52,818.4,PrimePick,4.3
+PROD0491,Soft Toy Lite,Toys,274.88,131.11,ZenBrand,3.8
+PROD0492,Remote Car,Toys,4573.93,2878.91,SwiftBuy,4.7
+PROD0493,Building Blocks Plus,Toys,4278.02,2133.44,NovaLine,3.5
+PROD0494,Remote Car Pro,Toys,2910.75,1583.53,PrimePick,4.1
+PROD0495,Action Figure Max,Toys,835.74,426.46,TrueValue,3.2
+PROD0496,Puzzle 1000pc SE,Toys,2577.52,1397.28,NovaLine,3.8
+PROD0497,Puzzle 1000pc Plus,Toys,568.13,276.61,SwiftBuy,4.1
+PROD0498,Remote Car Pro,Toys,5266.25,2453.81,ZenBrand,4.1
+PROD0499,Puzzle 1000pc Max,Toys,4852.39,2537.07,PrimePick,4.0
+PROD0500,Building Blocks Lite,Toys,1543.63,1043.05,ZenBrand,3.8
