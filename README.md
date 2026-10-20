@@ -193,7 +193,7 @@ This project demonstrates practical applications of Big Data Analytics, includin
 <tr>
 <td>
 <p align="center">ShopSight Dashboard</p>
-<img  src="https://github.com/user-attachments/assets/ea849299-6c71-4f88-bfa8-c1e37de9940a" width="500">
+<img  src="https://github.com/user-attachments/assets/ea849299-6c71-4f88-bfa8-c1e37de9940a" width="900">
 </td>
 </tr>
 </table>
